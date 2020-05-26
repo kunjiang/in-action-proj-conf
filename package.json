@@ -2,11 +2,10 @@
   "name": "in-action-proj-conf",
   "version": "1.0.0",
   "description": "主要出发点为运行环境变量的配置. ",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "config", "development", "product" ],
+  "author": "jk@jklib.org",
   "license": "ISC"
 }
