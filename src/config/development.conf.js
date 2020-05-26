@@ -4,9 +4,9 @@ module.exports = {
   port: 3000,
 
   database: {
-    user: 'root',
+    user: 'user',
     host: '127.0.0.1',
-    password: '123',
+    password: 'password',
     dbname: 'test_db'
   }
   

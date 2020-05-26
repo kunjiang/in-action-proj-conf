@@ -6,7 +6,7 @@ module.exports = {
    * - 开发模式 development, 加载 /config/development.conf.json ( 或 js ) 配置文件
    * - 生产模式 product, 加载 /config/product.conf.json ( 或 js ) 配置文件
    */
-  mode: 'product', // product
+  mode: 'development', // product
 
   /** 
    * 具体配置项, 补充开发或生产配置文件中未提供的配置信息 

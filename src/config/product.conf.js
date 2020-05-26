@@ -4,10 +4,10 @@ module.exports = {
   port: 4000,
 
   database: {
-    user: 'root',
+    user: 'user',
     host: '123.1.2.3',
-    password: '123',
-    dbname: 'test_db'
+    password: 'password',
+    dbname: 'produc_db'
   }
   
 };
