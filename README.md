@@ -102,7 +102,18 @@ console.log( 'end' );
 
 执行 `node index.js` 可以得到:
 
-![image-20200527013806736](README.assets/image-20200527013806736.png)
+```sh
+jiangkundeMacBook-Pro:src jiangkun$ node index.js 
+{ mode: 'product',
+  port: 4000,
+  database:
+   { user: 'user',
+     host: '123.1.2.3',
+     password: 'password',
+     dbname: 'produc_db' } }
+end
+jiangkundeMacBook-Pro:src jiangkun$ 
+```
 
 
 
@@ -117,13 +128,35 @@ module.exports = {
 
 再次运行 `node index.js` 可以得到:
 
-![image-20200527014100511](README.assets/image-20200527014100511.png)
+```sh
+jiangkundeMacBook-Pro:src jiangkun$ node index.js 
+{ mode: 'development',
+  port: 3000,
+  database:
+   { user: 'user',
+     host: '127.0.0.1',
+     password: 'password',
+     dbname: 'test_db' } }
+end
+jiangkundeMacBook-Pro:src jiangkun$ 
+```
 
 
 
 如果执行 `PORT=80 MODE=product node index.js` 则可以得到:
 
-![image-20200527014210855](README.assets/image-20200527014210855.png)
+```sh
+jiangkundeMacBook-Pro:src jiangkun$ PORT=80 MODE=product node index.js
+{ mode: 'product',
+  port: 80,
+  database:
+   { user: 'user',
+     host: '123.1.2.3',
+     password: 'password',
+     dbname: 'produc_db' } }
+end
+jiangkundeMacBook-Pro:src jiangkun$ 
+```
 
 
 
